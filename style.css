@@ -1,0 +1,262 @@
+:root {
+  /* Core colors */
+  --bg-primary: #14120b;
+  --bg-secondary: #1b1913;
+
+  --text-primary: #ececec;
+  --text-muted: rgba(228, 214, 214, 0.5);
+
+  /* Buttons */
+  --btn-primary-bg: #ececec;
+  --btn-primary-text: #14120b;
+  --btn-secondary-bg: #14120b;
+  --btn-secondary-text: #ececec;
+
+  /* Borders */
+  --border-light: rgba(204, 195, 195, 0.508);
+
+  /* Accent */
+  --accent-danger: red;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+body {
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+nav div a {
+  text-decoration: none;
+  color: var(--text-primary);
+  margin: 0.8rem;
+}
+
+.nav-btn-signin {
+  background-color: var(--btn-secondary-bg);
+  color: var(--btn-secondary-text);
+  border: 1px solid var(--border-light);
+  border-radius: 18px;
+  padding: 0.3rem 0.5rem;
+  margin-right: 0.5rem;
+}
+
+.nav-btn-download {
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border: 1px solid var(--border-light);
+  border-radius: 18px;
+  padding: 0.3rem 0.5rem;
+}
+
+.hero-section {
+  margin: 8rem 1.5rem 5rem 7rem;
+}
+
+.hero-section button {
+  margin-top: 1.5rem;
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border-radius: 22px;
+  padding: 0.8rem 1rem;
+  font-weight: 500;
+}
+
+.webpage_img {
+  width: 1230px;
+  height: 680px;
+  margin: 1rem;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+}
+
+.brand-logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem 4rem;
+}
+
+.brand-logo {
+  width: 145px;
+  height: 100px;
+  display: block;
+}
+
+.brand-logo img {
+  max-width: 150px;
+}
+
+.container-pic {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--bg-secondary);
+  margin: 0 4rem 5rem 4rem;
+}
+
+.right-div {
+  width: 759px;
+  height: 650px;
+  margin-right: 7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-div {
+  display: flex;
+  align-items: center;
+  margin-left: 7rem;
+  font-size: x-large;
+}
+
+.left-div span {
+  color: var(--accent-danger);
+}
+
+.grid-h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3rem;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  margin: 0 3rem;
+  gap: 15px;
+}
+
+.inner-block {
+  background-color: var(--bg-secondary);
+  color: var(--text-primary);
+  border-radius: 5px;
+  padding: 1rem;
+}
+
+.card {
+  display: flex;
+}
+
+.card-desc {
+  padding-left: 1rem;
+  line-height: 2rem;
+}
+
+.use-cases-container {
+  display: flex;
+  margin: 1rem;
+  height: 500px;
+  padding: 2rem;
+  justify-content: space-between;
+}
+
+.use-cases {
+  margin-right: 20px;
+  background-color: var(--bg-secondary);
+  padding: 20px;
+}
+
+.use-cases img {
+  display: flex;
+  padding: 1rem;
+  justify-content: center;
+}
+
+.changelog-container {
+  margin: 2.5rem;
+}
+
+.changelog-card {
+  padding: 0.7rem;
+  width: 350px;
+  height: 100px;
+  margin-top: 1.5rem;
+  background-color: var(--bg-secondary);
+}
+
+.changelog-badge {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.changelog-flex {
+  display: flex;
+  gap: 1.2rem;
+}
+
+.team-container {
+  margin: 8rem 2.3rem;
+}
+
+.team-img-flex {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.final-cta-container {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.final-cta-container button {
+  margin: 1.5rem;
+  width: 228px;
+  height: 42px;
+  border-radius: 25px;
+  font-weight: 500;
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+}
+
+.final-cta-container h1 {
+  font-size: 70px;
+}
+
+.footer {
+  margin-top: 8rem;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 80px;
+  background-color: var(--bg-secondary);
+}
+
+.footer-col-1 {
+  width: 300px;
+  height: 320px;
+  padding: 2rem;
+  line-height: 30px;
+}
+
+.fade {
+  color: var(--text-muted);
+}
+
+.nav-sizing {
+  margin: 0 100px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 85%;
+  background-color: var(--bg-primary);
+  z-index: 1000;
+  border-radius: 20px;
+}

@@ -1,1 +1,1 @@
-# Dev-Tool-Landing-Page-Cursor-UI-Clone-
+# Dev-Tool-Landing-Page-Cursor-UI-Clone
