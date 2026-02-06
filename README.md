@@ -2,7 +2,7 @@
 
 This project is a UI clone of the Cursor developer tool landing page.
 
-🌐 Live Link - [Click Here](<https://debeshghorui.github.io/Cursor-UI-Clone/>)
+### 🌐 Live Link - [Click Here](<https://debeshghorui.github.io/Cursor-UI-Clone/>)
 
 ## 📁 Project Structure
 
