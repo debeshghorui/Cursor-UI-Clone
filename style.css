@@ -31,17 +31,27 @@ body {
   color: var(--text-primary);
 }
 
-nav {
+.main-nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 1rem;
 }
 
-nav div a {
+.nav-links a {
   text-decoration: none;
   color: var(--text-primary);
   margin: 0.8rem;
+}
+
+.logo-img {
+  width: 95px;
+  height: 23px;
+}
+
+.nav-actions {
+  display: flex;
+  align-items: center;
 }
 
 .nav-btn-signin {
@@ -65,7 +75,7 @@ nav div a {
   margin: 8rem 1.5rem 5rem 7rem;
 }
 
-.hero-section button {
+.hero-cta {
   margin-top: 1.5rem;
   background-color: var(--btn-primary-bg);
   color: var(--btn-primary-text);
@@ -74,13 +84,20 @@ nav div a {
   font-weight: 500;
 }
 
+.hero-preview {
+  display: flex;
+  justify-content: center;
+}
+
 .webpage_img {
   width: 1230px;
   height: 680px;
   margin: 1rem;
-  display: flex;
-  justify-self: center;
-  align-items: center;
+  display: block;
+}
+
+.trusted-text {
+  text-align: center;
 }
 
 .brand-logo-container {
@@ -129,6 +146,14 @@ nav div a {
   color: var(--accent-danger);
 }
 
+.text-link {
+  color: var(--accent-danger);
+}
+
+.text-link-accent {
+  color: var(--accent-danger);
+}
+
 .grid-h2 {
   display: flex;
   justify-content: center;
@@ -150,8 +175,17 @@ nav div a {
   padding: 1rem;
 }
 
+.testimonial-text {
+  margin-bottom: 3rem;
+}
+
 .card {
   display: flex;
+}
+
+.avatar-img {
+  width: 15%;
+  border-radius: 10px;
 }
 
 .card-desc {
@@ -173,10 +207,26 @@ nav div a {
   padding: 20px;
 }
 
+.use-case-link {
+  color: var(--accent-danger);
+}
+
 .use-cases img {
-  display: flex;
+  display: block;
   padding: 1rem;
-  justify-content: center;
+}
+
+.use-case-image {
+  width: 100%;
+  height: auto;
+}
+
+.use-case-image-small {
+  width: 75%;
+}
+
+.use-case-image-large {
+  width: 85%;
 }
 
 .changelog-container {
@@ -205,10 +255,24 @@ nav div a {
   margin: 8rem 2.3rem;
 }
 
+.team-cta {
+  margin-top: 1.5rem;
+  background-color: var(--btn-primary-bg);
+  color: var(--btn-primary-text);
+  border-radius: 22px;
+  padding: 0.8rem 1rem;
+  font-weight: 500;
+}
+
 .team-img-flex {
   display: flex;
   justify-content: start;
   align-items: center;
+}
+
+.team-img {
+  width: 1230px;
+  height: auto;
 }
 
 .final-cta-container {
@@ -216,7 +280,7 @@ nav div a {
   margin-top: 2rem;
 }
 
-.final-cta-container button {
+.final-cta-btn {
   margin: 1.5rem;
   width: 228px;
   height: 42px;
@@ -230,13 +294,17 @@ nav div a {
   font-size: 70px;
 }
 
-.footer {
+.site-footer {
   margin-top: 8rem;
   display: flex;
   justify-content: start;
   align-items: center;
   gap: 80px;
   background-color: var(--bg-secondary);
+}
+
+.footer-text {
+  text-align: center;
 }
 
 .footer-col-1 {
@@ -259,4 +327,37 @@ nav div a {
   background-color: var(--bg-primary);
   z-index: 1000;
   border-radius: 20px;
+}
+
+.feature-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 5px;
+}
+
+.feature-image-wide {
+  padding: 1.5rem;
+}
+
+.feature-image-narrow {
+  width: 90%;
+}
+
+.left-div-3 {
+  width: 100%;
+}
+
+.right-div-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: start;
+  width: 80%;
+  height: 100%;
+  font-size: x-large;
+}
+
+.section-heading-left {
+  margin: 8rem 0 0 3rem;
 }

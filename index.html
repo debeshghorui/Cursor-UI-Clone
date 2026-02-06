@@ -11,197 +11,196 @@
 
 <body>
   <div class="outer-container">
-    <div class="nav-sizing">
-      <nav>
-        <div>
-          <img src="asset/cursor_logo.png" alt="cursor_logo" width="95px" height="23px" />
-        </div>
-        <div>
-          <a href="">Features</a>
-          <a href="">Enterprise</a>
-          <a href="">Pricing</a>
-          <a href="">Resources</a>
-        </div>
-        <div>
-          <button class="nav-btn-signin">Sign in</button>
-          <button class="nav-btn-download">Download</button>
-        </div>
-      </nav>
-    </div>
-
-    <div class="hero-section">
-      <h1>
-        Built to make you extraordinarily productive,<br />
-        Cursor is the best way to code with AI.
-      </h1>
-      <button>Download for Windows &darr;</button>
-    </div>
-
-    <img src="asset/cursor_webpage_img.png" alt="img" class="webpage_img" />
-
-    <p style="text-align: center">
-      Trusted every day by millions of professional developers.
-    </p>
-
-    <div class="brand-logo-container">
-      <div class="brand-logo"><img src="asset/stripe.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/OpenAI.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/linear.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/Datadog.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/nvidia.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/figma.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/ramp.png" alt="" /></div>
-      <div class="brand-logo"><img src="asset/adobe.png" alt="" /></div>
-    </div>
-
-    <div class="container-pic">
-      <div class="left-div">
-        <p>
-          Agent turns ideas into code <br />
-          A human-Al programmer, orders of <br />
-          magnitude more effective than any <br />
-          developer alone. <br /><br />
-          <span>Learn About Agent &rarr;</span>
-        </p>
-      </div>
-      <div class="right-div">
-        <img src="asset/pic.png" alt="" style="width: 100%; height: auto; display: block; border-radius: 5px" />
-      </div>
-    </div>
-
-    <div class="container-pic">
-      <div class="left-div-3" style="width: 100%">
-        <img src="asset/pic3.png" alt="" style="
-              width: 100%;
-              height: auto;
-              display: block;
-              border-radius: 5px;
-              padding: 1.5rem;
-            " />
-      </div>
-      <div class="right-div-3" style="
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            text-align: start;
-            width: 80%;
-            height: 100%;
-            font-size: x-large;
-          ">
-        <p>
-          Magically accurate autocomplete <br />
-          Our custom Tab model predicts <br />
-          your next action with striking <br />
-          speed and precision. <br /><br />
-          <span style="color: red">Learn about Tab &rarr;</span>
-        </p>
-      </div>
-    </div>
-
-    <div class="container-pic">
-      <div class="left-div">
-        <p>
-          Everywhere software gets built <br />
-          Cursor is in GitHub reviewing your <br />
-          PRs, a teammate in Slack, and <br />
-          anywhere else you work. <br /><br />
-          <span>Learn About Cursor's ecosystem &rarr;</span>
-        </p>
-      </div>
-      <div class="right-div">
-        <img src="asset/pic2.png" alt="" style="width: 90%; height: auto; display: block; border-radius: 5px" />
-      </div>
-    </div>
-
-    <h2 class="grid-h2">The new way to build software.</h2>
-
-    <div class="grid-container">
-      <!-- cards -->
-      <div class="inner-block">
-        <p style="margin-bottom: 3rem">
-          It was night and day from one batch to another, adoption went from
-          single digits to over 80%.
-        </p>
-        <div class="card">
-          <img src="asset/diana-hu-avatar.webp" width="15%" style="border-radius:10px" />
-          <div class="card-desc">
-            <p>Diana Hu</p>
-            <p>General partner, Y Combinator</p>
+    <header class="site-header">
+      <div class="nav-sizing">
+        <nav class="main-nav" aria-label="Primary">
+          <div class="nav-logo">
+            <img src="asset/cursor_logo.png" alt="Cursor logo" class="logo-img" />
           </div>
-        </div>
-      </div>
-
-      <div class="inner-block">
-        <p style="margin-bottom: 3rem">
-          The most useful AI tool that I currently pay for is Cursor.
-        </p>
-        <div class="card">
-          <img src="asset/shadcn-avatar.webp" width="15%" style="border-radius:10px" />
-          <div class="card-desc">
-            <p>Shadcn</p>
-            <p>Open Source Maintainer</p>
+          <div class="nav-links">
+            <a href="#">Features</a>
+            <a href="#">Enterprise</a>
+            <a href="#">Pricing</a>
+            <a href="#">Resources</a>
           </div>
-        </div>
-      </div>
-
-      <div class="inner-block">
-        <p style="margin-bottom: 3rem">
-          Cursor makes autonomy feel controllable and powerful.
-        </p>
-        <div class="card">
-          <img src="asset/andrej-karpathy-avatar.webp" width="15%" style="border-radius:10px" />
-          <div class="card-desc">
-            <p>Andrej Karpathy</p>
-            <p>AI Researcher</p>
+          <div class="nav-actions">
+            <button class="nav-btn-signin">Sign in</button>
+            <button class="nav-btn-download">Download</button>
           </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero-section">
+        <h1>
+          Built to make you extraordinarily productive,<br />
+          Cursor is the best way to code with AI.
+        </h1>
+        <button class="hero-cta">Download for Windows &darr;</button>
+      </section>
+
+      <section aria-label="Product preview" class="hero-preview">
+        <img src="asset/cursor_webpage_img.png" alt="Cursor product interface" class="webpage_img" />
+      </section>
+
+      <section class="trusted-section" aria-label="Trusted by developers">
+        <p class="trusted-text">
+          Trusted every day by millions of professional developers.
+        </p>
+
+        <div class="brand-logo-container">
+          <div class="brand-logo"><img src="asset/stripe.png" alt="Stripe" /></div>
+          <div class="brand-logo"><img src="asset/OpenAI.png" alt="OpenAI" /></div>
+          <div class="brand-logo"><img src="asset/linear.png" alt="Linear" /></div>
+          <div class="brand-logo"><img src="asset/Datadog.png" alt="Datadog" /></div>
+          <div class="brand-logo"><img src="asset/nvidia.png" alt="NVIDIA" /></div>
+          <div class="brand-logo"><img src="asset/figma.png" alt="Figma" /></div>
+          <div class="brand-logo"><img src="asset/ramp.png" alt="Ramp" /></div>
+          <div class="brand-logo"><img src="asset/adobe.png" alt="Adobe" /></div>
         </div>
-      </div>
-    </div>
+      </section>
 
-    <h2 style="margin: 8rem 0 0 3rem">Stay on the frontier</h2>
+      <section class="feature-section">
+        <article class="container-pic">
+          <div class="left-div">
+            <p>
+              Agent turns ideas into code <br />
+              A human-Al programmer, orders of <br />
+              magnitude more effective than any <br />
+              developer alone. <br /><br />
+              <span class="text-link">Learn About Agent &rarr;</span>
+            </p>
+          </div>
+          <div class="right-div">
+            <img src="asset/pic.png" alt="Cursor Agent in action" class="feature-image" />
+          </div>
+        </article>
 
-    <div class="use-cases-container">
-      <div class="use-cases">
-        <h3>Access the best models</h3>
-        <p>Choose between every cutting-edge model.</p>
-        <p style="color:red">Explore models ↗</p>
-        <img src="asset/use-case-1.png" width="75%" />
-      </div>
+        <article class="container-pic">
+          <div class="left-div-3">
+            <img src="asset/pic3.png" alt="Cursor autocomplete" class="feature-image feature-image-wide" />
+          </div>
+          <div class="right-div-3">
+            <p>
+              Magically accurate autocomplete <br />
+              Our custom Tab model predicts <br />
+              your next action with striking <br />
+              speed and precision. <br /><br />
+              <span class="text-link text-link-accent">Learn about Tab &rarr;</span>
+            </p>
+          </div>
+        </article>
 
-      <div class="use-cases">
-        <h3>Complete Codebase Understanding</h3>
-        <p>Cursor learns your codebase.</p>
-        <p style="color:red">Explore models ↗</p>
-        <img src="asset/use-case-2.png" width="85%" />
-      </div>
+        <article class="container-pic">
+          <div class="left-div">
+            <p>
+              Everywhere software gets built <br />
+              Cursor is in GitHub reviewing your <br />
+              PRs, a teammate in Slack, and <br />
+              anywhere else you work. <br /><br />
+              <span class="text-link">Learn About Cursor's ecosystem &rarr;</span>
+            </p>
+          </div>
+          <div class="right-div">
+            <img src="asset/pic2.png" alt="Cursor ecosystem integrations" class="feature-image feature-image-narrow" />
+          </div>
+        </article>
+      </section>
 
-      <div class="use-cases">
-        <h3>Develop Enduring software</h3>
-        <p>Trusted by Fortune 500 teams.</p>
-        <p style="color:red">Explore models ↗</p>
-        <img src="asset/use-case-3.png" width="75%" />
-      </div>
-    </div>
+      <section aria-label="Customer stories">
+        <h2 class="grid-h2">The new way to build software.</h2>
 
-    <div class="team-container">
-      <h1>
-        Cursor is an applied team focused <br />
-        on building the future of coding.
-      </h1>
-      <button>Join us →</button>
+        <div class="grid-container">
+          <article class="inner-block">
+            <p class="testimonial-text">
+              It was night and day from one batch to another, adoption went from
+              single digits to over 80%.
+            </p>
+            <div class="card">
+              <img src="asset/diana-hu-avatar.webp" alt="Diana Hu" class="avatar-img" />
+              <div class="card-desc">
+                <p>Diana Hu</p>
+                <p>General partner, Y Combinator</p>
+              </div>
+            </div>
+          </article>
 
-      <div class="team-img-flex">
-        <img src="asset/team-pic.png" alt="team" width="1230px" />
-      </div>
-    </div>
+          <article class="inner-block">
+            <p class="testimonial-text">
+              The most useful AI tool that I currently pay for is Cursor.
+            </p>
+            <div class="card">
+              <img src="asset/shadcn-avatar.webp" alt="Shadcn" class="avatar-img" />
+              <div class="card-desc">
+                <p>Shadcn</p>
+                <p>Open Source Maintainer</p>
+              </div>
+            </div>
+          </article>
 
-    <div class="final-cta-container">
-      <h1>Try Cursor now.</h1>
-      <button>Download for Windows ↓</button>
-    </div>
+          <article class="inner-block">
+            <p class="testimonial-text">
+              Cursor makes autonomy feel controllable and powerful.
+            </p>
+            <div class="card">
+              <img src="asset/andrej-karpathy-avatar.webp" alt="Andrej Karpathy" class="avatar-img" />
+              <div class="card-desc">
+                <p>Andrej Karpathy</p>
+                <p>AI Researcher</p>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
 
-    <footer>
-      <p class="fade" style="text-align:center">
+      <section class="use-cases-section" aria-label="Use cases">
+        <h2 class="section-heading-left">Stay on the frontier</h2>
+
+        <div class="use-cases-container">
+          <article class="use-cases">
+            <h3>Access the best models</h3>
+            <p>Choose between every cutting-edge model.</p>
+            <p class="use-case-link">Explore models ↗</p>
+            <img src="asset/use-case-1.png" alt="Model selection in Cursor" class="use-case-image use-case-image-small" />
+          </article>
+
+          <article class="use-cases">
+            <h3>Complete Codebase Understanding</h3>
+            <p>Cursor learns your codebase.</p>
+            <p class="use-case-link">Explore models ↗</p>
+            <img src="asset/use-case-2.png" alt="Codebase understanding in Cursor" class="use-case-image use-case-image-large" />
+          </article>
+
+          <article class="use-cases">
+            <h3>Develop Enduring software</h3>
+            <p>Trusted by Fortune 500 teams.</p>
+            <p class="use-case-link">Explore models ↗</p>
+            <img src="asset/use-case-3.png" alt="Enterprise adoption of Cursor" class="use-case-image use-case-image-small" />
+          </article>
+        </div>
+      </section>
+
+      <section class="team-container" aria-label="Team">
+        <h1>
+          Cursor is an applied team focused <br />
+          on building the future of coding.
+        </h1>
+        <button class="team-cta">Join us →</button>
+
+        <div class="team-img-flex">
+          <img src="asset/team-pic.png" alt="The Cursor team" class="team-img" />
+        </div>
+      </section>
+
+      <section class="final-cta-container" aria-label="Final call to action">
+        <h1>Try Cursor now.</h1>
+        <button class="final-cta-btn">Download for Windows ↓</button>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p class="fade footer-text">
         ©2026 Cursor · SOC 2 Certified
       </p>
     </footer>
